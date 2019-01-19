@@ -4,7 +4,6 @@
 
 ### Question 11
 
-Question 11. 
 
 function askedAndAnswered () {
  let name;
