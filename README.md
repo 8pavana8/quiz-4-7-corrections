@@ -6,6 +6,7 @@
 
 
 Code 01. 
+
 ```
 function askedAndAnswered () {
  let name;
@@ -16,9 +17,12 @@ function askedAndAnswered () {
   let x = 
   document.getElementByID("asked-and-answered").innerHTML = "Hello," + name + "." + "When do you turn
   ```       
+  
   Code 02.
+  
   ```
   function classTrip () {
+  ```
         
 ## Quiz 5 Correction/Explanations
 
