@@ -42,3 +42,4 @@ the correct answer is
 x === y
 x !== y
 ```
+This is the correct because === is equal to and compares both value and data type; and !== is not equal to and compares both value and data type. The first statment is asking for a condition that would make x and y have equivalent values and data types and the second statement asks for a condtion that would make x and y have different values or different data types. 
