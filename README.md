@@ -171,9 +171,9 @@ This is the correct revision that will make the function accept as parameters th
 ### Question 9
 I got this question wrong because there were two correct answers, but I picked one correct and one incorrect answer.
 The correct answers were :
-let difference = subtract(x, y);
 
 ```
+let difference = subtract(x, y);
 console.log(difference);
 ```
 and
@@ -186,5 +186,14 @@ My incorrect answer was:
 ```
 console.log(subtract);
 ```
-This does not print the result of calling subtract to the console.
+This does not print the result of calling subtract to the console and the parameters are not defined.
+
+### Question 10
+I got this question partially wrong because I selected "Math.random" to be one of the built-in functions that accept parameters. However, only prompt, alert, and console.log accept parameters.
+
+### Question 14
+I got this question wrong because I answered that "2" will be printed to the console. However, the correct answer is that a ReferenceError will occur on line 10. A ReferenceError occurs when a reference to a variable or object is made in code that doesn't exist or is outside the scope of the executing code.
+
+### Question 15
+I got this question partially wrong because I said the following code snippet would only print "undefined" to the console. However, 4 would also be printed to the console because it meets the parameters.
 
