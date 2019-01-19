@@ -109,3 +109,46 @@ I got this question wrong. I thought that difference between  a while loop and d
 
 ### Question 15
 I got this question wrong because I forgot how loops were executed. The correct answer would have been in the order of: setup, expression, loop body, update, and return to step 2. This is the order of how the components are executed.
+
+
+## Quiz 6 Corrections/Explanations
+
+### Question 5
+I got this question partially incorrect because I only selected 1 of the 3 answers. 
+When considering the following function:
+
+```
+function doSomeStuff(a, b, c) {
+   console.log("I need to do " + a + ", " + b + ", and " + c + "... So busy!");
+}
+
+doSomeStuff("homework", "chores", "more homework");
+doSomeStuff("chores", "homework");
+doSomeStuff("homework", "homework", "more homework", "oh, and chores, too");
+```
+
+I was supposed to select ALL of the statements that will be logged to the console. However, I only picked the one that corressponded to:
+
+```
+doSomeStuff("homework", "chores", "more homework");
+```
+
+The answers that corresponded to 
+
+```
+doSomeStuff("chores", "homework");
+```
+
+and
+```
+doSomeStuff("homework", "homework", "more homework", "oh, and chores, too");
+```
+ should have been selected too.
+```
+I need to do homework, homework, and more homework... So busy!
+```
+and 
+```  
+I need to do chores, homework, and undefined... So busy!
+```
+are also the correct answers because they would've been logged to the console too, based on the function.
