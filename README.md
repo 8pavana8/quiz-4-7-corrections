@@ -152,3 +152,39 @@ and
 I need to do chores, homework, and undefined... So busy!
 ```
 are also the correct answers because they would've been logged to the console too, based on the function.
+
+### Question 6
+I got this question paertially wrong. For this question, I was to consider a given function and select what could be determined based on the info provided. I did not select the choice which stated "The function is not designed to accept any parameters." This is also a correct answer as there was nothing between the parenthesis which determines what the parameters are. 
+
+### Question 7
+I got this question wrong because even though I selected the right answer of "prompt", I also selected an additional incorrect answer of "console.log". Prompt is the correct answer because it is designed to return a value. However, "console.log" is not one of the built-in functions that are designed to return a value.
+
+### Question 8
+I got this question wrong. I was supposed to select an answer that would modify the given function so that it accepts as parameters the values being divided. The correct answer is 
+```
+function divide(a, b) {
+   return a / b;
+}
+```
+This is the correct revision that will make the function accept as parameters the values being divided. The answer I selected just named variables and prompted the user to enter any two two numbers, in which a divided by b was returned.
+
+### Question 9
+I got this question wrong because there were two correct answers, but I picked one correct and one incorrect answer.
+The correct answers were :
+let difference = subtract(x, y);
+
+```
+console.log(difference);
+```
+and
+```
+console.log(subtract(x, y));
+```
+because they are both ways to print the result of calling subtract to the console. The parameters also have to be stated to do this. 
+
+My incorrect answer was:
+```
+console.log(subtract);
+```
+This does not print the result of calling subtract to the console.
+
