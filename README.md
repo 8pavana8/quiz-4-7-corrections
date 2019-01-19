@@ -16,6 +16,9 @@ function askedAndAnswered () {
   let x = 
   document.getElementByID("asked-and-answered").innerHTML = "Hello," + name + "." + "When do you turn
   ```       
+  Code 02.
+  ```
+  function classTrip () {
         
 ## Quiz 5 Correction/Explanations
 
@@ -64,3 +67,41 @@ let status = (studentGrade < 88) ? "ND" : "HR";
 ```
 also effectively replaces the if-else statement provided. 
 
+### Question 7
+I got this question partially wrong because I did not select all the answers that applied. 
+```
+if (a < b)
+{
+    // do something
+}
+```
+The above is also a valid syntax for an if statement in JavaScript, making it a correct answer.
+
+### Question 8
+I got this question incorrect because I selected the switch statement instead of the else-if statements. The else-if statement was the most efficient and simple way to achieve the goal, not the the switch statement.
+
+### Question 12
+ I got this question worng because I selected:
+ ```
+ while (x > 100) {
+   x++;
+}
+```
+
+
+ The correct answer would be:
+ ```
+ while (x > 100) {
+   x--;
+}
+```
+ because this shows a valid loop that will run at least once and will terminate.
+
+### Question 13
+I got this question wrong because Anything written in the form a while (or do...while) loop can be achieved with an equivalent for loop and vice-a-versa. So the answer is true, not false. 
+
+### Question 14
+I got this question wrong. I thought that difference between  a while loop and do...while loop was that A while loop is designed to iterate an undetermined number of times, whereas a do...while loop is designed to iterate a set and specific number of times. However, the primary difference is actually that A while loop check its condition before running the loop body, whereas a do...while loop checks its condition after running the loop body.
+
+### Question 15
+I got this question wrong because I forgot how loops were executed. The correct answer would have been in the order of: setup, expression, loop body, update, and return to step 2. This is the order of how the components are executed.
