@@ -8,20 +8,30 @@
 Code 01. 
 
 ```
-function askedAndAnswered () {
- let name;
- let age;
-  
-  let name = prompt ("Enter your first name");
-  let age = (Number(prompt) ("Enter your age");
-  let x = 
-  document.getElementByID("asked-and-answered").innerHTML = "Hello," + name + "." + "When do you turn
+function askedAndAnswered (x, y, z) {
+
+ var x = prompt("What is your  first name.");
+ var z = prompt("How old are you?");
+ var y = parseInt(z) + 1;
+ 
+ alert("Hello, " + x + ". When do you turn " + y + "?");
+ 
+}
   ```       
   
   Code 02.
   
   ```
-  function classTrip () {
+  function classTrip() { 
+   let y = prompt("Enter number of students that will be attending the trip.");
+   let z = prompt("Enter number of chaperones, including teachers,that will be attending the trip.");
+   let busMax = prompt("Not including the bus driver, enter the maximum capacity of each bus.");
+   
+   let x = (y +z)/busMax;
+   x = Math.round(x);
+   
+   console.log(x + "busses are required to accomodate " + y + "students and " + z + "chaperones.")
+}
   ```
         
 ## Quiz 5 Correction/Explanations
@@ -197,3 +207,7 @@ I got this question wrong because I answered that "2" will be printed to the con
 ### Question 15
 I got this question partially wrong because I said the following code snippet would only print "undefined" to the console. However, 4 would also be printed to the console because it meets the parameters.
 
+## Quiz 7 Corrections/Explanations
+
+### Question 9
+I got this question incorrect because I answered with false instead of true. The correct asnwer is true the code segment was asking to return numbers greater than 100 and less than 999. The values that were returned did meet these parameters. I must've looked over this question hastily and put in the obviously incorrect answer.
